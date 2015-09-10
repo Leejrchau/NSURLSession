@@ -14,6 +14,7 @@
 		A66548A91A5C030500617E2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66548A81A5C030500617E2F /* Images.xcassets */; };
 		A66548AC1A5C030500617E2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66548AA1A5C030500617E2F /* LaunchScreen.xib */; };
 		A66548B81A5C030500617E2F /* NSURLSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A66548B71A5C030500617E2F /* NSURLSessionTests.m */; };
+		A66548C31A5C038100617E2F /* NetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A66548C21A5C038100617E2F /* NetworkOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A66548B11A5C030500617E2F /* NSURLSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66548B61A5C030500617E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A66548B71A5C030500617E2F /* NSURLSessionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionTests.m; sourceTree = "<group>"; };
+		A66548C11A5C038100617E2F /* NetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkOperation.h; sourceTree = "<group>"; };
+		A66548C21A5C038100617E2F /* NetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				A66548A81A5C030500617E2F /* Images.xcassets */,
 				A66548AA1A5C030500617E2F /* LaunchScreen.xib */,
 				A665489B1A5C030500617E2F /* Supporting Files */,
+				A66548C11A5C038100617E2F /* NetworkOperation.h */,
+				A66548C21A5C038100617E2F /* NetworkOperation.m */,
 			);
 			path = NSURLSession;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66548C31A5C038100617E2F /* NetworkOperation.m in Sources */,
 				A66548A41A5C030500617E2F /* ViewController.m in Sources */,
 				A66548A11A5C030500617E2F /* AppDelegate.m in Sources */,
 				A665489E1A5C030500617E2F /* main.m in Sources */,
